@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 27px 0;
+    background-color: #F3d7b7;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu li a {
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.simply {
+    padding: 60px 0;
+    background-color: #F3d7b7;
+    height: 600px;
+}
+
+.simply .container {
+    display: flex;
+    gap: 250px;
+
+
+}
+
+.simply-text {
+    max-width: 464px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.simply-text p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin: 25px 0;
+    margin-top: 47px;
+
+}
+
+.btn {
+    padding: 16px 24px;
+    background-color: #0a775f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 47px;
+
+}
+
+.katta-img {
+    max-width: 610px;
+
+
+}
+
+header .container img{
+    margin-top: 200px;
+}
+
+.kichik-img {
+    position: absolute;
+    top: -85px;
+    left: -85px;
+}
+
+.otacards {
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    gap: 150px;
+    width: 850px;
+
+    height: 175px;
+    display: flex;
+    margin-left: 170px;
+    padding-left: 18px;
+}
+
+.otacards div h3 {
+    padding-bottom: 14px;
+    font-size: 16px;
+    color: black;
+}
+
+.sm-box {
+    padding-top: 35px;
+}
+
+h3 {
+    font-size: 32px;
+    color: gray;
+}
+
+.h21 {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.h {
+    font-size: 48px;
+    color: gray;
+}
+
+footer {
+    padding: 60px 0;
+    background-color: #F3d7b7;
+
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    font-size: 28px;
+    display: flex;
+    gap: 20px;
+}
+.our{
+    padding: 160px 0;
+    background-color: aliceblue;
+}
+.our .container{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+.our-text h2{
+font-size: 48px;
+font-weight: 700;
+line-height: 56.25px;
+}
+.our-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 45px;
+}
+.container-ab{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 20px;
+    color: white;
+    background-color: #C99B67;
+}
+.katta-img {
+position: relative;
+    top:  -165px;
+  
+
+
+}
+.dadcards1 .container{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    background-color: #F3d7b7;
+}
+
+
+
